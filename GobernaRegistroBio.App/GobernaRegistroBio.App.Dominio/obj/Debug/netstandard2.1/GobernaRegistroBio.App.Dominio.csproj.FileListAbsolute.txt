@@ -1,0 +1,22 @@
+C:\Users\jfao3\OneDrive\Escritorio\Programador de 4G\Fundamentos de programación\Cycle 3\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.csprojAssemblyReference.cache
+C:\Users\jfao3\OneDrive\Escritorio\Programador de 4G\Fundamentos de programación\Cycle 3\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\jfao3\OneDrive\Escritorio\Programador de 4G\Fundamentos de programación\Cycle 3\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.AssemblyInfo.cs
+C:\Users\jfao3\OneDrive\Escritorio\Programador de 4G\Fundamentos de programación\Cycle 3\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.csprojAssemblyReference.cache
+C:\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.AssemblyInfoInputs.cache
+C:\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.AssemblyInfo.cs
+C:\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.deps.json
+C:\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.dll
+C:\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.pdb
+C:\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.dll
+C:\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.pdb
+C:\Gobernacion1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.deps.json
+C:\Gobernacion1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.dll
+C:\Gobernacion1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.pdb
+C:\Gobernacion1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.csprojAssemblyReference.cache
+C:\Gobernacion1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.AssemblyInfoInputs.cache
+C:\Gobernacion1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.AssemblyInfo.cs
+C:\Gobernacion1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Gobernacion1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.dll
+C:\Gobernacion1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.pdb
