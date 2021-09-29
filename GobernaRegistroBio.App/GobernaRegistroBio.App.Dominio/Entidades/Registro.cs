@@ -3,7 +3,7 @@ namespace GobernaRegistroBio.App.Dominio
 {
     public class Registro
     {
-        public int Id_registro {get; set;}
+        public int Id {get; private set;}
 
         public string Fecha_Diagnostico {get; set;}
 

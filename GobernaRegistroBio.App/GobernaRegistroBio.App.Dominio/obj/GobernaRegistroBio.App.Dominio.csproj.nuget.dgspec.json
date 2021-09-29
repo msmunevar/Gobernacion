@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jfao3\\OneDrive\\Escritorio\\Gobernacion\\Gobernacion\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj": {}
+    "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jfao3\\OneDrive\\Escritorio\\Gobernacion\\Gobernacion\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj": {
+    "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jfao3\\OneDrive\\Escritorio\\Gobernacion\\Gobernacion\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj",
         "projectName": "GobernaRegistroBio.App.Dominio",
-        "projectPath": "C:\\Users\\jfao3\\OneDrive\\Escritorio\\Gobernacion\\Gobernacion\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\jfao3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jfao3\\OneDrive\\Escritorio\\Gobernacion\\Gobernacion\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\obj\\",
+        "projectPath": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\MICHAEL\\.nuget\\packages\\",
+        "outputPath": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jfao3\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\MICHAEL\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"

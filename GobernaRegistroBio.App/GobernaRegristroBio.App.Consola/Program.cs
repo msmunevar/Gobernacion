@@ -8,6 +8,8 @@ namespace GobernaRegristroBio.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            //El Framework ya ha sido instalado
         }
     }
 }

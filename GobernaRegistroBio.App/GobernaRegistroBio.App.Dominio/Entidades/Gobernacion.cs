@@ -4,7 +4,7 @@ namespace GobernaRegistroBio.App.Dominio
 {
     public class Gobernacion
     {
-        public int Id_gobernacion {get; set;}
+        public int Id {get; set;}
 
         public string Dependencias {get; set;}
 
