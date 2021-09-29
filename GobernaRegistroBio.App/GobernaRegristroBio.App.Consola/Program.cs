@@ -1,4 +1,5 @@
 ﻿using System;
+using GobernaRegistroBio.App.Dominio;
 
 namespace GobernaRegristroBio.App.Consola
 {

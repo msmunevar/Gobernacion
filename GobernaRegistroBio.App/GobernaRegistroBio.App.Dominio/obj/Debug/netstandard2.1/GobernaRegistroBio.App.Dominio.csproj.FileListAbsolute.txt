@@ -20,3 +20,12 @@ C:\Gobernacion1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\
 C:\Gobernacion1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Gobernacion1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.dll
 C:\Gobernacion1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.pdb
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.deps.json
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.dll
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.pdb
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.csprojAssemblyReference.cache
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.AssemblyInfo.cs
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.dll
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.pdb
