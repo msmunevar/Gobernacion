@@ -22,6 +22,6 @@ public class Persona{
         
         public string Rol {set; get;}
 
-        public Genero genero {set; get;}
+        public Genero Genero {set; get;}
     }
 }

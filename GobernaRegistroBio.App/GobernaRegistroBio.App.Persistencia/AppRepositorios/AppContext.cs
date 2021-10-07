@@ -5,23 +5,23 @@ namespace GobernaRegistroBio.App.Persistencia
 {
     public class AppContext : DbContext
     {
-        public DbSet<Persona> personas {get;set;}
+        public DbSet<Persona> Personas {get;set;}
 
-        public DbSet<Personal_Aseo> personal_aseo {get;set;}
+        public DbSet<Personal_Aseo> Personal_aseo {get;set;}
 
-        public DbSet<Proveedores_Servicios> proveedores_servicios {get;set;}
+        public DbSet<Proveedores_Servicios> Proveedores_servicios {get;set;}
 
-        public DbSet<Registro> registros {get;set;}
+        public DbSet<Registro> Registros {get;set;}
 
-        public DbSet<Secretarios_Despacho> secretarios_despacho {get;set;}
+        public DbSet<Secretarios_Despacho> Secretarios_despacho {get;set;}
 
-        public DbSet<Dependencia> dependencias {get;set;}
+        public DbSet<Dependencia> Dependencias {get;set;}
 
         //public DbSet<Genero> generos {get;set;} sin esta linea compila (creo que se debe al ser un enumerable)
 
-        public DbSet<Gobernacion> gobernacion {get;set;}
+        public DbSet<Gobernacion> Gobernacion {get;set;}
 
-        public DbSet<Gobernador_Asesores> gobernador_asesores {get;set;}
+        public DbSet<Gobernador_Asesores> Gobernador_asesores {get;set;}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

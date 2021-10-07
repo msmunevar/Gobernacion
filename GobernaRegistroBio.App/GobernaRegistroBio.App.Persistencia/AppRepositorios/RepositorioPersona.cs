@@ -1,7 +1,7 @@
 using System.Collections.Generic;
+using System.Linq;
 using GobernaRegistroBio.App.Dominio;
-using System.Ling;
-
+using System;
 
 namespace GobernaRegistroBio.App.Persistencia
 {
@@ -14,32 +14,32 @@ namespace GobernaRegistroBio.App.Persistencia
         {
             _appContext=appContext; //Recordar el constructor.
         }
-
         Persona IRepositorioPersona.AddPersona(Persona persona)
         {
-            var personaa_adicionada= _appContext.Persona.Add(persona);
+            var persona_adicionada= _appContext.Personas.Add(persona);
             _appContext.SaveChanges();
-            return persona_adicionado.Entity;
+            return persona_adicionada.Entity;
         }
-        void IRepositorioPersona.DeletePersona(int idPersona)
+
+        void IRepositorioPersona.DeletePersona(int idpersona)
         {
-            var personaEncontrada=_appContext.Persona.FirstOrDefault(p=> p.Id==idPersona);
+            var personaEncontrada=_appContext.Personas.FirstOrDefault(p=> p.Id==idpersona);
             if(personaEncontrada!=null)
                 return;
-            _appContext.Persona.Remove(personaEncontrada);
-            _appContext.SaveChanges():
+            _appContext.Personas.Remove(personaEncontrada);
+            _appContext.SaveChanges();
         }
         IEnumerable<Persona> IRepositorioPersona.GetAllPersona()
         {
-            return _appContext.Persona;
+            return _appContext.Personas;
         }
-        Persona IRepositorioPersona.GetPersona(int Persona)
+        Persona IRepositorioPersona.GetPersona(int idpersona)
         {
-            return personaEncontrada=_appContext.Persona.FirstOrDefault(p=> p.Id==idPersona);
+            return _appContext.Personas.FirstOrDefault(p=> p.Id==idpersona);
         }
         Persona IRepositorioPersona.UpdatePersona(Persona persona)
         {
-            var personaEncontrada=_appContext.Persona.FirstOrDefault(p=> p.Id==persona.Id);
+            var personaEncontrada=_appContext.Personas.FirstOrDefault(p=> p.Id==persona.Id);
             if(personaEncontrada!=null)
             {
                 personaEncontrada.Nombre=persona.Nombre;
@@ -50,12 +50,12 @@ namespace GobernaRegistroBio.App.Persistencia
                 personaEncontrada.Direccion=persona.Direccion;
                 personaEncontrada.Telefono=persona.Telefono;
                 personaEncontrada.Rol=persona.Rol;
-                personaEncontrada.Genero=persona.Rol;
+                personaEncontrada.Genero=persona.Genero;
                 
                 _appContext.SaveChanges();
             }
-            return personaEncontrada
+            return personaEncontrada;
         }
     }
+       
    }
-}
