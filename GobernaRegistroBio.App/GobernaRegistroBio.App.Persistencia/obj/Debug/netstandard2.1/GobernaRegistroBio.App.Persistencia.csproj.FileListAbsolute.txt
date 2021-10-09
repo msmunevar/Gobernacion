@@ -46,3 +46,15 @@ C:\Gobern\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Persistenc
 C:\Gobern\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Persistencia\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Persistencia.csproj.CopyComplete
 C:\Gobern\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Persistencia\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Persistencia.dll
 C:\Gobern\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Persistencia\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Persistencia.pdb
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Persistencia\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Persistencia.deps.json
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Persistencia\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Persistencia.dll
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Persistencia\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Persistencia.pdb
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Persistencia\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.dll
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Persistencia\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.pdb
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Persistencia\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Persistencia\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Persistencia\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Persistencia.AssemblyInfo.cs
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Persistencia\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Persistencia\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Persistencia.csproj.CopyComplete
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Persistencia\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Persistencia.dll
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Persistencia\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Persistencia.pdb
