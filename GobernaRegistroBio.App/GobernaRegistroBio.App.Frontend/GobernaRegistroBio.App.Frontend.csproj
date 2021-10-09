@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
+  <ItemGroup>
+    <ProjectReference Include="..\GobernaRegistroBio.App.Dominio\GobernaRegistroBio.App.Dominio.csproj" />
+    <ProjectReference Include="..\GobernaRegistroBio.App.Persistencia\GobernaRegistroBio.App.Persistencia.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
