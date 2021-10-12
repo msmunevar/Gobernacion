@@ -52,8 +52,9 @@ namespace GobernaRegistroBio.App.Persistencia
                 personaEncontrada.Rol=persona.Rol;
                 personaEncontrada.Genero=persona.Genero;
                 
-                _appContext.SaveChanges();
+                
             }
+            _appContext.SaveChanges();
             return personaEncontrada;
         }
     }

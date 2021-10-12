@@ -1,0 +1,46 @@
+﻿@page
+@model GobernaRegistroBio.App.Frontend.Pages.EditarPersonal_AseoModel
+@{
+}
+<h1>Editar información personal_aseo</h1>
+<form method="post">
+    <input type="hidden" asp-for="personal_aseo.Id">
+    <div class="form-group">
+        <label asp-for="personal_aseo.Nombre"></label>
+        <input asp-for="personal_aseo.Nombre" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="personal_aseo.Apellidos"></label>
+        <input asp-for="personal_aseo.Apellidos" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="personal_aseo.Identificacion"></label>
+        <input asp-for="personal_aseo.Identificacion" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="personal_aseo.Edad"></label>
+        <input asp-for="personal_aseo.Edad" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="personal_aseo.Estado"></label>
+        <input asp-for="personal_aseo.Estado" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="personal_aseo.Direccion"></label>
+        <input asp-for="personal_aseo.Direccion" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="personal_aseo.Telefono"></label>
+        <input asp-for="personal_aseo.Telefono" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="personal_aseo.Rol"></label>
+        <input asp-for="personal_aseo.Rol" class="form-control">
+    </div>
+     <div class="form-group">
+        <label asp-for="personal_aseo.Turno_Servicio"></label>
+        <input asp-for="personal_aseo.Turno_Servicio" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>
+<a asp-page="./Personal_Aseo" class="btn-default"> Lista de Personal Aseo</a>

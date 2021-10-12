@@ -79,7 +79,7 @@ C:\Gobern\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\b
 C:\Gobern\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\bin\Debug\netcoreapp3.1\GobernaRegistroBio.App.Persistencia.dll
 C:\Gobern\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\bin\Debug\netcoreapp3.1\GobernaRegistroBio.App.Dominio.pdb
 C:\Gobern\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\bin\Debug\netcoreapp3.1\GobernaRegistroBio.App.Persistencia.pdb
-C:\Gobern\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\Personas.cshtml.g.cs
-C:\Gobern\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\DetallesrPersonas.cshtml.g.cs
-C:\Gobern\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\EditarPersonas.cshtml.g.cs
-C:\Gobern\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\EliminarPersonas.cshtml.g.cs
+C:\Gobern\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\EditarPersonal_Aseo.cshtml.g.cs
+C:\Gobern\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\EliminarPersonal_Aseo.cshtml.g.cs
+C:\Gobern\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\Personal_Aseo.cshtml.g.cs
+C:\Gobern\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\DetallesPersonal_Aseo.cshtml.g.cs

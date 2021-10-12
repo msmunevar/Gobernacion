@@ -1,0 +1,39 @@
+﻿@page
+@model GobernaRegistroBio.App.Frontend.Pages.Personal_AseoModel
+@{
+}
+
+<h1>Lista de personas</h1>
+<table class="table">
+    @foreach (var personal_aseo in Model.personal_Aseo)
+    {
+        <tr>
+            <td>@personal_aseo.Nombre</td>
+            <td>@personal_aseo.Apellidos</td>
+            <td>@personal_aseo.Identificacion</td>
+            <td>@personal_aseo.Edad</td>
+            <td>@personal_aseo.Estado</td>
+            <td>@personal_aseo.Direccion</td>
+            <td>@personal_aseo.Telefono</td>
+            <td>@personal_aseo.Rol</td>
+            <td>@personal_aseo.Turno_Servicio</td>     
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetallesPersonal_Aseo" asp-route-personal_aseoId="@personal_aseo.Id">
+                <i class="fas fa-info-circle" aria-hidden="true"></i></a>
+            </td>
+
+            <td>
+                <a class="btn btn-secondary table-btn" asp-page="./EditarPersonal_Aseo" asp-route-personal_aseoId="@personal_aseo.Id">
+                <i class="fas fa-address-book" aria-hidden="true"></i></a>
+            </td>
+
+            <td>
+                <a class="btn btn-danger table-btn" asp-page="./EliminarPersonal_Aseo" asp-route-personal_aseoId="@personal_aseo.Id">
+                <i class="fas fa-book-dead" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+    }
+</table>
+<a asp-page=".\EditarPersonal_Aseo" class="btn btn-primary">Adicionar Persona</a>
+

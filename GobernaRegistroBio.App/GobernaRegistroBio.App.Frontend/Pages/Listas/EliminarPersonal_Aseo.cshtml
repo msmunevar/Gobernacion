@@ -1,0 +1,22 @@
+﻿@page
+@model GobernaRegistroBio.App.Frontend.Pages.EliminarPersonal_AseoModel
+@{
+}
+<h1>Se va a eliminar la persona de aseo</h1>
+<table class="table">
+    <tr>
+        <td>@Model.personal_aseo.Nombre</td>
+        <td>@Model.personal_aseo.Apellidos</td>
+        <td>@Model.personal_aseo.Identificacion</td>
+        <td>@Model.personal_aseo.Edad</td>
+        <td>@Model.personal_aseo.Estado</td>
+        <td>@Model.personal_aseo.Direccion</td>
+        <td>@Model.personal_aseo.Telefono</td>
+        <td>@Model.personal_aseo.Rol</td>  
+        <td>@Model.personal_aseo.Turno_Servicio</td> 
+    </tr>
+</table>
+<form method="post">
+    <input type="hidden" asp-for="personal_aseo.Id">
+    <button type="submit" class="btn btn-primary">Confirmar Eliminar</button>
+</form>

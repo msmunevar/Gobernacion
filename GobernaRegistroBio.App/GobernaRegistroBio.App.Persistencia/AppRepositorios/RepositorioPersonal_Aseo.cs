@@ -22,21 +22,24 @@ namespace GobernaRegistroBio.App.Persistencia
             return persona_adicionada.Entity;
         }
 
-        void IRepositorioPersonal_Aseo.DeletePersonal_Aseo(int idpersonal_Aseo)
+        Personal_Aseo IRepositorioPersonal_Aseo.DeletePersonal_Aseo(Personal_Aseo personal_aseo)
         {
-            var personaEncontrada=_appContext.Personal_aseo.FirstOrDefault(p=> p.Id==idpersonal_Aseo);
-            if(personaEncontrada!=null)
-                return;
+            var personaEncontrada=_appContext.Personal_aseo.FirstOrDefault(p=> p.Id==personal_aseo.Id);
+            if(personaEncontrada==null)
+                return null;
             _appContext.Personal_aseo.Remove(personaEncontrada);
             Console.WriteLine("Se eliminó una persona del aseo");
             _appContext.SaveChanges();
+            return personaEncontrada;
         }
         IEnumerable<Personal_Aseo> IRepositorioPersonal_Aseo.GetAllPersonal_Aseo()
         {
+            _appContext.SaveChanges();
             return _appContext.Personal_aseo;
         }
         Personal_Aseo IRepositorioPersonal_Aseo.GetPersonal_Aseo(int idpersonal_Aseo)
         {
+            _appContext.SaveChanges();
             return _appContext.Personal_aseo.FirstOrDefault(p=> p.Id==idpersonal_Aseo);
         }
         Personal_Aseo IRepositorioPersonal_Aseo.UpdatePersonal_Aseo(Personal_Aseo personal_aseo)
@@ -55,8 +58,9 @@ namespace GobernaRegistroBio.App.Persistencia
                 personaEncontrada.Genero=personal_aseo.Genero;
                 personaEncontrada.Turno_Servicio=personal_aseo.Turno_Servicio;
                 
-                _appContext.SaveChanges();
+              
             }
+            _appContext.SaveChanges();
             return personaEncontrada;
         }
     }
