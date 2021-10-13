@@ -19,7 +19,7 @@ namespace GobernaRegistroBio.App.Persistencia
 
         //public DbSet<Genero> generos {get;set;} sin esta linea compila (creo que se debe al ser un enumerable)
 
-        public DbSet<Gobernacion> Gobernacion {get;set;}
+        public DbSet<Gobernacion> gobernacio {get;set;}
 
         public DbSet<Gobernador_Asesores> Gobernador_asesores {get;set;}
 
