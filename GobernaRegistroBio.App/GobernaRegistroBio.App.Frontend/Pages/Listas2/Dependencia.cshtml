@@ -1,0 +1,33 @@
+﻿@page
+@model GobernaRegistroBio.App.Frontend.Pages.DependenciaModel
+@{
+}
+
+<h1>Lista de personas</h1>
+<table class="table">
+    @foreach (var dependencia in Model.DEpendencia)
+    {
+        <tr>
+            <td>@dependencia.Nombre_Dependencia</td>
+            <td>@dependencia.Aforo_PorDependencia</td>
+                 
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetallesDependencia" asp-route-dependenciaId="@dependencia.Id">
+                <i class="fas fa-info-circle" aria-hidden="true"></i></a>
+            </td>
+
+            <td>
+                <a class="btn btn-secondary table-btn" asp-page="./EditarDependencia" asp-route-dependenciaId="@dependencia.Id">
+                <i class="fas fa-address-book" aria-hidden="true"></i></a>
+            </td>
+
+            <td>
+                <a class="btn btn-danger table-btn" asp-page="./EliminarDependencia" asp-route-dependenciaId="@dependencia.Id">
+                <i class="fas fa-book-dead" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+    }
+</table>
+<a asp-page=".\EditarDependencia" class="btn btn-primary">Adicionar Dependencia</a>
+

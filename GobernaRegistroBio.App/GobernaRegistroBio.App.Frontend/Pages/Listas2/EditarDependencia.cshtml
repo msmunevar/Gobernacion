@@ -1,0 +1,19 @@
+﻿@page
+@model GobernaRegistroBio.App.Frontend.Pages.EditarDependenciaModel
+@{
+}
+<h1>Editar información dependencia</h1>
+<form method="post">
+    <input type="hidden" asp-for="dependencia.Id">
+    <div class="form-group">
+        <label asp-for="dependencia.Nombre_Dependencia"></label>
+        <input asp-for="dependencia.Nombre_Dependencia" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="dependencia.Aforo_PorDependencia"></label>
+        <input asp-for="dependencia.Aforo_PorDependencia" class="form-control">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>
+<a asp-page="./Dependencia" class="btn-default"> Lista de dependencias</a>

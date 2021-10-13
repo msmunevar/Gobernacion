@@ -168,3 +168,7 @@ C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaReg
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\GobernaRegistroBio.App.Frontend.dll
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\GobernaRegistroBio.App.Frontend.pdb
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\GobernaRegistroBio.App.Frontend.genruntimeconfig.cache
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas2\Dependencia.cshtml.g.cs
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas2\EditarDependencia.cshtml.g.cs
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas2\EliminarDependencia.cshtml.g.cs
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas2\DetallesDependencia.cshtml.g.cs
