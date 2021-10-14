@@ -1,0 +1,50 @@
+﻿@page
+@model GobernaRegistroBio.App.Frontend.Pages.EditarProveedores_ServiciosModel
+@{
+}
+<h1>Editar información proveedores_servicios</h1>
+<form method="post">
+    <input type="hidden" asp-for="proveedores_servicios.Id">
+    <div class="form-group">
+        <label asp-for="proveedores_servicios.Nombre"></label>
+        <input asp-for="proveedores_servicios.Nombre" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="proveedores_servicios.Apellidos"></label>
+        <input asp-for="proveedores_servicios.Apellidos" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="proveedores_servicios.Identificacion"></label>
+        <input asp-for="proveedores_servicios.Identificacion" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="proveedores_servicios.Edad"></label>
+        <input asp-for="proveedores_servicios.Edad" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="proveedores_servicios.Estado"></label>
+        <input asp-for="proveedores_servicios.Estado" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="proveedores_servicios.Direccion"></label>
+        <input asp-for="proveedores_servicios.Direccion" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="proveedores_servicios.Telefono"></label>
+        <input asp-for="proveedores_servicios.Telefono" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="proveedores_servicios.Rol"></label>
+        <input asp-for="proveedores_servicios.Rol" class="form-control">
+    </div>
+     <div class="form-group">
+        <label asp-for="proveedores_servicios.Servicio_Realizado"></label>
+        <input asp-for="proveedores_servicios.Servicio_Realizado" class="form-control">
+    </div>
+         <div class="form-group">
+        <label asp-for="proveedores_servicios.Unidad_Servicio"></label>
+        <input asp-for="proveedores_servicios.Unidad_Servicio" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>
+<a asp-page="./Proveedores_Servicios" class="btn-default"> Proveedores_Servicios</a>

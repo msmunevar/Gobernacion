@@ -9,7 +9,7 @@ namespace GobernaRegistroBio.App.Persistencia
         Gobernacion AddGobernacion(Gobernacion gobernacion);
         Gobernacion UpdateGobernacion(Gobernacion gobernacion);
         Gobernacion DeleteGobernacion(Gobernacion gobernacion);
-        Gobernacion GetAllGobernacion(int idgobernacion); 
+        Gobernacion GetGobernacion(int idgobernacion); 
 
 
 

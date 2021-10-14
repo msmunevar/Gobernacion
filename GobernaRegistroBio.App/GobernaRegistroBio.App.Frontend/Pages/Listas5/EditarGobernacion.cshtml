@@ -1,0 +1,19 @@
+﻿@page
+@model GobernaRegistroBio.App.Frontend.Pages.EditarGobernacionModel
+@{
+}
+<h1>Editar información gobernacion</h1>
+<form method="post">
+    <input type="hidden" asp-for="gobernacion.Id">
+    <div class="form-group">
+        <label asp-for="gobernacion.Dependencias"></label>
+        <input asp-for="gobernacion.Dependencias" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="gobernacion.Aforo"></label>
+        <input asp-for="gobernacion.Aforo" class="form-control">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>
+<a asp-page="./Gobernacion" class="btn-default"> Gobernacion</a>

@@ -1,0 +1,17 @@
+﻿@page
+@model GobernaRegistroBio.App.Frontend.Pages.EliminarGobernacionModel
+@{
+}
+<h1>Se va a eliminar la persona de aseo</h1>
+<table class="table">
+    <tr>
+
+        <td>@Model.gobernacion.Dependencias</td>
+        <td>@Model.gobernacion.Aforo</td>
+       
+    </tr>
+</table>
+<form method="post">
+    <input type="hidden" asp-for="gobernacion.Id">
+    <button type="submit" class="btn btn-primary">Confirmar Eliminar</button>
+</form>

@@ -1,0 +1,40 @@
+﻿@page
+@model GobernaRegistroBio.App.Frontend.Pages.Proveedores_ServiciosModel
+@{
+}
+
+<h1>Lista de Proveedores Servicios</h1>
+<table class="table">
+    @foreach (var proveedores_servicios in Model.proveedores_Servicios)
+    {
+        <tr>
+            <td>@proveedores_servicios.Nombre</td>
+            <td>@proveedores_servicios.Apellidos</td>
+            <td>@proveedores_servicios.Identificacion</td>
+            <td>@proveedores_servicios.Edad</td>
+            <td>@proveedores_servicios.Estado</td>
+            <td>@proveedores_servicios.Direccion</td>
+            <td>@proveedores_servicios.Telefono</td>
+            <td>@proveedores_servicios.Rol</td>
+            <td>@proveedores_servicios.Servicio_Realizado</td>
+            <td>@proveedores_servicios.Unidad_Servicio</td>   
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetallesProveedores_Servicios" asp-route-proveedores_serviciosId="@proveedores_servicios.Id">
+                <i class="fas fa-info-circle" aria-hidden="true"></i></a>
+            </td>
+
+            <td>
+                <a class="btn btn-secondary table-btn" asp-page="./EditarProveedores_Servicios" asp-route-proveedores_serviciosId="@proveedores_servicios.Id">
+                <i class="fas fa-address-book" aria-hidden="true"></i></a>
+            </td>
+
+            <td>
+                <a class="btn btn-danger table-btn" asp-page="./EliminarProveedores_Servicios" asp-route-proveedores_serviciosId="@proveedores_servicios.Id">
+                <i class="fas fa-book-dead" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+    }
+</table>
+<a asp-page=".\EditarProveedores_Servicios" class="btn btn-primary">Adicionar Proveedores_Servicios</a>
+

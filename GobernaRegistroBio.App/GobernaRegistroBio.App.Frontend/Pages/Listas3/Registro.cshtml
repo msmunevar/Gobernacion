@@ -1,0 +1,35 @@
+﻿@page
+@model GobernaRegistroBio.App.Frontend.Pages.RegistroModel
+@{
+}
+
+<h1>Lista de Registro</h1>
+<table class="table">
+    @foreach (var registro in Model.REgistro)
+    {
+        <tr>
+            <td>@registro.Fecha_Diagnostico</td>
+            <td>@registro.Sintomas</td>
+            <td>@registro.Tiempo_Aislamiento</td>
+            <td>@registro.Autoriza_Ingreso</td>
+                 
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetallesRegistro" asp-route-registroId="@registro.Id">
+                <i class="fas fa-info-circle" aria-hidden="true"></i></a>
+            </td>
+
+            <td>
+                <a class="btn btn-secondary table-btn" asp-page="./EditarRegistro" asp-route-registroId="@registro.Id">
+                <i class="fas fa-address-book" aria-hidden="true"></i></a>
+            </td>
+
+            <td>
+                <a class="btn btn-danger table-btn" asp-page="./EliminarRegistro" asp-route-registroId="@registro.Id">
+                <i class="fas fa-book-dead" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+    }
+</table>
+<a asp-page=".\EditarRegistro" class="btn btn-primary">Adicionar registro</a>
+

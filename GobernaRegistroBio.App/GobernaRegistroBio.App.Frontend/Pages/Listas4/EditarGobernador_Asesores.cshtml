@@ -1,0 +1,16 @@
+﻿@page
+@model GobernaRegistroBio.App.Frontend.Pages.EditarGobernador_AsesoresModel
+@{
+}
+<h1>Editar información gobernador_asesores</h1>
+<form method="post">
+    <input type="hidden" asp-for="gobernador_asesores.Id">
+    <div class="form-group">
+        <label asp-for="gobernador_asesores.Oficinas_Visitadas"></label>
+        <input asp-for="gobernador_asesores.Oficinas_Visitadas" class="form-control">
+    </div>
+    
+    
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>
+<a asp-page="./Gobernador_Asesores" class="btn-default"> Lista de gobernador_asesoress</a>
