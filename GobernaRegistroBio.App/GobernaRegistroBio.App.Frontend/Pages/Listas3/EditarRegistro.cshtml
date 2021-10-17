@@ -5,13 +5,18 @@
 <h1>Editar información registro</h1>
 <form method="post">
     <input type="hidden" asp-for="registro.Id">
+    
     <div class="form-group">
         <label asp-for="registro.Fecha_Diagnostico"></label>
         <input asp-for="registro.Fecha_Diagnostico" class="form-control">
     </div>
     <div class="form-group">
-        <label asp-for="registro.Sintomas"></label>
-        <input asp-for="registro.Sintomas" class="form-control">
+        <label asp-for="registro.Dependencia"></label>
+        <input asp-for="registro.Dependencia" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="registro.sintomas"></label>
+        <input asp-for="registro.sintomas" class="form-control">
     </div>
     <div class="form-group">
         <label asp-for="registro.Tiempo_Aislamiento"></label>
@@ -20,10 +25,6 @@
     <div class="form-group">
         <label asp-for="registro.Autoriza_Ingreso"></label>
         <input asp-for="registro.Autoriza_Ingreso" class="form-control">
-    </div>
-    <div class="form-group">
-        <label asp-for="registro.persona.Identificacion"></label>
-        <input asp-for="registro.persona.Identificacion" class="form-control">
     </div>
     
     <button type="submit" class="btn btn-primary">Guardar Cambios</button>

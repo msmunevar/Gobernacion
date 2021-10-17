@@ -19,24 +19,6 @@ namespace GobernaRegistroBio.App.Persistencia.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
-            modelBuilder.Entity("GobernaRegistroBio.App.Dominio.Dependencia", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
-
-                    b.Property<string>("Aforo_PorDependencia")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Nombre_Dependencia")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Dependencias");
-                });
-
             modelBuilder.Entity("GobernaRegistroBio.App.Dominio.Gobernacion", b =>
                 {
                     b.Property<int>("Id")
@@ -47,12 +29,15 @@ namespace GobernaRegistroBio.App.Persistencia.Migrations
                     b.Property<string>("Aforo")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Dependencias")
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.ToTable("gobernacio");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("Gobernacion");
                 });
 
             modelBuilder.Entity("GobernaRegistroBio.App.Dominio.Persona", b =>
@@ -93,6 +78,9 @@ namespace GobernaRegistroBio.App.Persistencia.Migrations
                     b.Property<string>("Telefono")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Ubicacion")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.ToTable("Personas");
@@ -110,10 +98,10 @@ namespace GobernaRegistroBio.App.Persistencia.Migrations
                     b.Property<string>("Autoriza_Ingreso")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Fecha_Diagnostico")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int?>("DependenciaId")
+                        .HasColumnType("int");
 
-                    b.Property<string>("Sintomas")
+                    b.Property<string>("Fecha_Diagnostico")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Tiempo_Aislamiento")
@@ -122,11 +110,29 @@ namespace GobernaRegistroBio.App.Persistencia.Migrations
                     b.Property<int?>("personaId")
                         .HasColumnType("int");
 
+                    b.Property<int>("sintomas")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("DependenciaId");
 
                     b.HasIndex("personaId");
 
                     b.ToTable("Registros");
+                });
+
+            modelBuilder.Entity("GobernaRegistroBio.App.Dominio.Dependencia", b =>
+                {
+                    b.HasBaseType("GobernaRegistroBio.App.Dominio.Gobernacion");
+
+                    b.Property<string>("Aforo_PorDependencia")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Ubicacion")
+                        .HasColumnType("int");
+
+                    b.HasDiscriminator().HasValue("Dependencia");
                 });
 
             modelBuilder.Entity("GobernaRegistroBio.App.Dominio.Gobernador_Asesores", b =>
@@ -174,9 +180,15 @@ namespace GobernaRegistroBio.App.Persistencia.Migrations
 
             modelBuilder.Entity("GobernaRegistroBio.App.Dominio.Registro", b =>
                 {
+                    b.HasOne("GobernaRegistroBio.App.Dominio.Dependencia", "Dependencia")
+                        .WithMany()
+                        .HasForeignKey("DependenciaId");
+
                     b.HasOne("GobernaRegistroBio.App.Dominio.Persona", "persona")
                         .WithMany()
                         .HasForeignKey("personaId");
+
+                    b.Navigation("Dependencia");
 
                     b.Navigation("persona");
                 });

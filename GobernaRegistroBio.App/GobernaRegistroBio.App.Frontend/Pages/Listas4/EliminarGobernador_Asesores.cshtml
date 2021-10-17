@@ -1,16 +1,26 @@
 ﻿@page
-@model GobernaRegistroBio.App.Frontend.Pages.EliminarDependenciaModel
+@model GobernaRegistroBio.App.Frontend.Pages.EliminarGobernador_AsesoresModel
 @{
 }
 <h1>Se va a eliminar el gobernador asesor</h1>
 <table class="table">
     <tr>
-        <td>@Model.dependencia.Nombre_Dependencia</td>
-        <td>@Model.dependencia.Aforo_PorDependencia</td>
+        <td>@Model.gobernador_asesores.Oficinas_Visitadas</td>
+        <td>@Model.gobernador_asesores.Ubicacion</td>
+        <td>@Model.gobernador_asesores.Nombre</td>
+        <td>@Model.gobernador_asesores.Apellidos</td>
+        <td>@Model.gobernador_asesores.Identificacion</td>
+        <td>@Model.gobernador_asesores.Edad</td>
+        <td>@Model.gobernador_asesores.Estado</td>
+        <td>@Model.gobernador_asesores.Direccion</td>
+        <td>@Model.gobernador_asesores.Telefono</td>
+        <td>@Model.gobernador_asesores.Rol</td>
+        <td>@Model.gobernador_asesores.Genero</td> 
+        
        
     </tr>
 </table>
 <form method="post">
-    <input type="hidden" asp-for="dependencia.Id">
+    <input type="hidden" asp-for="gobernador_asesores.Id">
     <button type="submit" class="btn btn-primary">Confirmar Eliminar</button>
 </form>

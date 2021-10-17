@@ -47,12 +47,3 @@ C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaReg
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.dll
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.pdb
-C:\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.deps.json
-C:\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.dll
-C:\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\bin\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.pdb
-C:\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.csprojAssemblyReference.cache
-C:\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.AssemblyInfoInputs.cache
-C:\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.AssemblyInfo.cs
-C:\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.csproj.CoreCompileInputs.cache
-C:\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.dll
-C:\Gobernacion-1\GobernaRegistroBio.App\GobernaRegistroBio.App.Dominio\obj\Debug\netstandard2.1\GobernaRegistroBio.App.Dominio.pdb
