@@ -1,0 +1,15 @@
+﻿@page
+@model GobernaRegistroBio.App.Frontend.Pages.DetallesRegistroModel
+@{
+}
+<h1>Detalles del Registro</h1>
+<table class="table">
+    <tr>
+        <td>@Model.registro.Fecha_Diagnostico</td>
+        <td>@Model.registro.Sintomas</td>
+        <td>@Model.registro.Tiempo_Aislamiento</td>
+        <td>@Model.registro.Autoriza_Ingreso</td>
+          
+    </tr>
+</table>
+<a class="btn btn-primary" asp-area="" asp-page="/Listas/Registro">Registro</a>

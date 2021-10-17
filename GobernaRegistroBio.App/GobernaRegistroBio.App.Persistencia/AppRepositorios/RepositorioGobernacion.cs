@@ -35,7 +35,7 @@ namespace GobernaRegistroBio.App.Persistencia
             _appContext.SaveChanges();
             return _appContext.gobernacio;
         }
-        Gobernacion IRepositorioGobernacion.GetAllGobernacion(int idgobernacion)
+        Gobernacion IRepositorioGobernacion.GetGobernacion(int idgobernacion)
         {
             _appContext.SaveChanges();
             return _appContext.gobernacio.FirstOrDefault(p=> p.Id==idgobernacion);

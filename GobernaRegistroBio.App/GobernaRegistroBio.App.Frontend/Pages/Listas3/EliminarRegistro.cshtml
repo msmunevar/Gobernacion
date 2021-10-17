@@ -1,0 +1,18 @@
+﻿@page
+@model GobernaRegistroBio.App.Frontend.Pages.EliminarRegistroModel
+@{
+}
+<h1>Se va a eliminar registro</h1>
+<table class="table">
+    <tr>
+        <td>@Model.registro.Fecha_Diagnostico</td>
+        <td>@Model.registro.Sintomas</td>
+        <td>@Model.registro.Tiempo_Aislamiento</td>
+        <td>@Model.registro.Autoriza_Ingreso</td>
+       
+    </tr>
+</table>
+<form method="post">
+    <input type="hidden" asp-for="registro.Id">
+    <button type="submit" class="btn btn-primary">Confirmar Eliminar</button>
+</form>

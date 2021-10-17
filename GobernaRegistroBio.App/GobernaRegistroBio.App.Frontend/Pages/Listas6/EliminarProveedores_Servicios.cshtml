@@ -1,0 +1,23 @@
+﻿@page
+@model GobernaRegistroBio.App.Frontend.Pages.EliminarProveedores_ServiciosModel
+@{
+}
+<h1>Se va a eliminar el Proveedor de Servicios</h1>
+<table class="table">
+    <tr>
+        <td>@Model.proveedores_servicios.Nombre</td>
+        <td>@Model.proveedores_servicios.Apellidos</td>
+        <td>@Model.proveedores_servicios.Identificacion</td>
+        <td>@Model.proveedores_servicios.Edad</td>
+        <td>@Model.proveedores_servicios.Estado</td>
+        <td>@Model.proveedores_servicios.Direccion</td>
+        <td>@Model.proveedores_servicios.Telefono</td>
+        <td>@Model.proveedores_servicios.Rol</td>   
+        <td>@Model.proveedores_servicios.Servicio_Realizado</td>
+        <td>@Model.proveedores_servicios.Unidad_Servicio</td> 
+    </tr>
+</table>
+<form method="post">
+    <input type="hidden" asp-for="proveedores_servicios.Id">
+    <button type="submit" class="btn btn-primary">Confirmar Eliminar</button>
+</form>
