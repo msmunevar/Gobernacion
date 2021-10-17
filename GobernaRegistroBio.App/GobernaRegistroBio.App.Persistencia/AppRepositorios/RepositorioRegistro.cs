@@ -50,6 +50,7 @@ namespace GobernaRegistroBio.App.Persistencia
                 dependenciaEncontrada.Sintomas=registro.Sintomas;
                 dependenciaEncontrada.Tiempo_Aislamiento=registro.Tiempo_Aislamiento;
                 dependenciaEncontrada.Autoriza_Ingreso=registro.Autoriza_Ingreso;
+                dependenciaEncontrada.persona=registro.persona;
                 
                 
               

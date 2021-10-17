@@ -5801,11 +5801,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\GobernaRegristroBio.App.Consola.csproj",
+      "projectUniqueName": "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\GobernaRegristroBio.App.Consola.csproj",
       "projectName": "GobernaRegristroBio.App.Consola",
-      "projectPath": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\GobernaRegristroBio.App.Consola.csproj",
+      "projectPath": "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\GobernaRegristroBio.App.Consola.csproj",
       "packagesPath": "C:\\Users\\MICHAEL\\.nuget\\packages\\",
-      "outputPath": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\obj\\",
+      "outputPath": "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MICHAEL\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5819,8 +5819,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj": {
-              "projectPath": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj"
+            "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj": {
+              "projectPath": "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj"
             }
           }
         }
@@ -5856,7 +5856,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
       }
     }
   }

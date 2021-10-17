@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\GobernaRegristroBio.App.Consola.csproj": {}
+    "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\GobernaRegristroBio.App.Consola.csproj": {}
   },
   "projects": {
-    "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj": {
+    "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj",
         "projectName": "GobernaRegistroBio.App.Dominio",
-        "projectPath": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj",
+        "projectPath": "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\MICHAEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\obj\\",
+        "outputPath": "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MICHAEL\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,18 +50,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj": {
+    "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj",
         "projectName": "GobernaRegistroBio.App.Persistencia",
-        "projectPath": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj",
+        "projectPath": "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\MICHAEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\obj\\",
+        "outputPath": "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MICHAEL\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -75,8 +75,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj": {
-                "projectPath": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj"
+              "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj": {
+                "projectPath": "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Dominio\\GobernaRegistroBio.App.Dominio.csproj"
               }
             }
           }
@@ -126,18 +126,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\GobernaRegristroBio.App.Consola.csproj": {
+    "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\GobernaRegristroBio.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\GobernaRegristroBio.App.Consola.csproj",
+        "projectUniqueName": "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\GobernaRegristroBio.App.Consola.csproj",
         "projectName": "GobernaRegristroBio.App.Consola",
-        "projectPath": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\GobernaRegristroBio.App.Consola.csproj",
+        "projectPath": "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\GobernaRegristroBio.App.Consola.csproj",
         "packagesPath": "C:\\Users\\MICHAEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\obj\\",
+        "outputPath": "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MICHAEL\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -151,8 +151,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj": {
-                "projectPath": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj"
+              "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj": {
+                "projectPath": "C:\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj"
               }
             }
           }
@@ -188,7 +188,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
         }
       }
     }

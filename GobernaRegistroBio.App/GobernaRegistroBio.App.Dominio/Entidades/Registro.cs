@@ -13,6 +13,8 @@ namespace GobernaRegistroBio.App.Dominio
 
         public string Autoriza_Ingreso {get; set;}
 
+        public Persona persona {get; set;}
+
         
 
     }
