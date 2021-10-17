@@ -7,6 +7,8 @@ namespace GobernaRegistroBio.App.Persistencia
     {
         public DbSet<Persona> Personas {get;set;}
 
+        public DbSet<Dependencia> Dependencias {get;set;}
+
         public DbSet<Personal_Aseo> Personal_aseo {get;set;}
 
         public DbSet<Proveedores_Servicios> Proveedores_servicios {get;set;}
@@ -14,8 +16,6 @@ namespace GobernaRegistroBio.App.Persistencia
         public DbSet<Registro> Registros {get;set;}
 
         public DbSet<Secretarios_Despacho> Secretarios_despacho {get;set;}
-
-        public DbSet<Dependencia> Dependencias {get;set;}
 
         //public DbSet<Genero> generos {get;set;} sin esta linea compila (creo que se debe al ser un enumerable)
 

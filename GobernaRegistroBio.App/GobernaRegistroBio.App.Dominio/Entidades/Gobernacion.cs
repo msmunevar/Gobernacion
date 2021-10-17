@@ -6,8 +6,6 @@ namespace GobernaRegistroBio.App.Dominio
     {
         public int Id {get; set;}
 
-        public string Dependencias {get; set;}
-
         public string Aforo {get; set;}
 
         //Retomar linea 15 y 17, system.collections...debe activarse de color verde
