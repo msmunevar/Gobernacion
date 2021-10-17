@@ -5796,19 +5796,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MICHAEL\\.nuget\\packages\\": {}
+    "C:\\Users\\jfao3\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\GobernaRegristroBio.App.Consola.csproj",
+      "projectUniqueName": "C:\\Users\\jfao3\\OneDrive\\Escritorio\\Gobernacion\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\GobernaRegristroBio.App.Consola.csproj",
       "projectName": "GobernaRegristroBio.App.Consola",
-      "projectPath": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\GobernaRegristroBio.App.Consola.csproj",
-      "packagesPath": "C:\\Users\\MICHAEL\\.nuget\\packages\\",
-      "outputPath": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\obj\\",
+      "projectPath": "C:\\Users\\jfao3\\OneDrive\\Escritorio\\Gobernacion\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\GobernaRegristroBio.App.Consola.csproj",
+      "packagesPath": "C:\\Users\\jfao3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jfao3\\OneDrive\\Escritorio\\Gobernacion\\GobernaRegistroBio.App\\GobernaRegristroBio.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MICHAEL\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jfao3\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5819,8 +5819,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj": {
-              "projectPath": "C:\\Gobern\\Gobernacion-1\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj"
+            "C:\\Users\\jfao3\\OneDrive\\Escritorio\\Gobernacion\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\jfao3\\OneDrive\\Escritorio\\Gobernacion\\GobernaRegistroBio.App\\GobernaRegistroBio.App.Persistencia\\GobernaRegistroBio.App.Persistencia.csproj"
             }
           }
         }
@@ -5856,7 +5856,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
       }
     }
   }
