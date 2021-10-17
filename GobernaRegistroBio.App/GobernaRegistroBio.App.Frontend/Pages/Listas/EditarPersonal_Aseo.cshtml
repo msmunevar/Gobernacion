@@ -10,6 +10,10 @@
 <form method="post">
     <input type="hidden" asp-for="personal_aseo.Id">
     <div class="form-group">
+        <label asp-for="personal_aseo.Ubicacion"></label>
+        <input asp-for="personal_aseo.Ubicacion" class="form-control">
+    </div>
+    <div class="form-group">
         <label asp-for="personal_aseo.Nombre"></label>
         <input asp-for="personal_aseo.Nombre" class="form-control">
     </div>
@@ -40,6 +44,10 @@
     <div class="form-group">
         <label asp-for="personal_aseo.Rol"></label>
         <input asp-for="personal_aseo.Rol" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="personal_aseo.Genero"></label>
+        <input asp-for="personal_aseo.Genero" class="form-control">
     </div>
      <div class="form-group">
         <label asp-for="personal_aseo.Turno_Servicio"></label>

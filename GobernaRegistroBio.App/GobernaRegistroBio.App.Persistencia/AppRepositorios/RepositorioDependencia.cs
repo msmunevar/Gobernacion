@@ -47,7 +47,7 @@ namespace GobernaRegistroBio.App.Persistencia
             var dependenciaEncontrada=_appContext.Dependencias.FirstOrDefault(p=> p.Id==dependencia.Id);
             if(dependenciaEncontrada!=null)
             {
-                dependenciaEncontrada.Nombre_Dependencia=dependencia.Nombre_Dependencia;
+                dependenciaEncontrada.Ubicacion=dependencia.Ubicacion;
                 dependenciaEncontrada.Aforo_PorDependencia=dependencia.Aforo_PorDependencia;
                 
                 

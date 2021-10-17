@@ -47,16 +47,23 @@ namespace GobernaRegistroBio.App.Persistencia
             if(dependenciaEncontrada!=null)
             {
                 dependenciaEncontrada.Fecha_Diagnostico=registro.Fecha_Diagnostico;
-                dependenciaEncontrada.Sintomas=registro.Sintomas;
+                dependenciaEncontrada.sintomas=registro.sintomas;
                 dependenciaEncontrada.Tiempo_Aislamiento=registro.Tiempo_Aislamiento;
                 dependenciaEncontrada.Autoriza_Ingreso=registro.Autoriza_Ingreso;
-                dependenciaEncontrada.persona=persona.Id;
+                //dependenciaEncontrada.Persona=registro.persona;
+                dependenciaEncontrada.Dependencia=registro.Dependencia;
+                
                 
                 
               
             }
             _appContext.SaveChanges();
             return dependenciaEncontrada;
+        }
+         IEnumerable<Registro> IRepositorioRegistro.GetAforo_Dependencia(int iddependencia)
+        {
+            return _appContext.Registros.Where (d =>d.Id==iddependencia).ToList();
+            
         }
     }
        

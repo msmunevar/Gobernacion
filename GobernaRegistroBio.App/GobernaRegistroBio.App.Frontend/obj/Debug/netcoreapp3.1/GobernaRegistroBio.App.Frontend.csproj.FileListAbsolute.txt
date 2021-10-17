@@ -175,7 +175,6 @@ C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaReg
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas3\DetallesRegistro.cshtml.g.cs
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas3\EditarRegistro.cshtml.g.cs
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas3\EliminarRegistro.cshtml.g.cs
-C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas4\Goberbador_Asesores.cshtml.g.cs
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas4\DetallesGobernador_Asesores.cshtml.g.cs
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas4\EditarGobernador_Asesores.cshtml.g.cs
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas4\EliminarGobernador_Asesores.cshtml.g.cs
@@ -183,12 +182,9 @@ C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaReg
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas7\DetallesSecretarios_Despacho.cshtml.g.cs
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas7\EditarSecretarios_Despacho.cshtml.g.cs
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas7\EliminarSecretarios_Despacho.cshtml.g.cs
-C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas5\DetallesGobernacion.cshtml.g.cs
-C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas5\EditarGobernacion.cshtml.g.cs
-C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas5\EliminarGobernacion.cshtml.g.cs
-C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas5\Gobernacion.cshtml.g.cs
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas6\DetallesProveedores_Servicios.cshtml.g.cs
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas6\EditarProveedores_Servicios.cshtml.g.cs
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas6\EliminarProveedores_Servicios.cshtml.g.cs
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas6\Proveedores_Servicios.cshtml.g.cs
 C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Sintomatologia.cshtml.g.cs
+C:\Users\jfao3\OneDrive\Escritorio\Gobernacion\GobernaRegistroBio.App\GobernaRegistroBio.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas4\Gobernador_Asesores.cshtml.g.cs

@@ -11,6 +11,8 @@ namespace GobernaRegistroBio.App.Persistencia
         Registro DeleteRegistro(Registro registro);
         Registro GetRegistro(int idregistro); 
 
+        IEnumerable<Registro> GetAforo_Dependencia(int iddependencia);
+
 
 
     }
